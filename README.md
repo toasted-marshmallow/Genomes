@@ -5,14 +5,9 @@ Vibrio-cholerae (the Cholera water-borne disease) etc. The script will then coun
 
 You can easily modify this script if you are working with RNA information as well. All you'd have to do is write a line that converts the Thymine (T) to Uracil (U) and do the calculations from there. Furthermore, if you would like to look at other genomes, just download them from the NCBI databases and put them in a folder. In my case the folder that contains all of the text files is called "Genomes," but you can name your folder anything you want -- just modify it in the script. 
 
+Feel free to use this script and/or modify it for your purposes. This is a pretty simple script, but I wrote it because -- well practice and I wanted to see if I could accomplish this. I'm not a great programmer :'(
+
 The genetic information was taken pulled from various NIH and CDC databases, and the specific data that I used will be included in the reference below.
-
-
-
-
-
-
-
 
 ## Resources
 Corynebacterium Diphtheriae Genome: https://www.ncbi.nlm.nih.gov/nuccore/LN831026.1?report=fasta <br>
