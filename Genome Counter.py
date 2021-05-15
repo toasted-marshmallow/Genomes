@@ -92,5 +92,5 @@ if len(genomes) > 0: # make sure that genomes is not empty
                 fig.tight_layout()
                 plt.show()
                 print("-----------------------------------------------------------------------")
-else:
+else: # gives you a heads up at the get-go if something's wrong
     print("something's not working")
