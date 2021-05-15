@@ -1,7 +1,9 @@
 # Genomes
 
 The purpose of this script is to read in text files that contain the genomes of various organisms and/or viral pathogens e.g., SARS-CoV2 (Agent that causes COVID-19 disease), 
-Vibrio-cholerae (the Cholera water-borne disease) etc. The script will then count the number of Adenine (A), Thymine (T), Guanine (G), Cytosine (C), and the respective pairs (A-T, G-C), and calculate the total percentages of each of the nucleo-bases in the respective genomes. The script will print the percentages in the python console as well as create a pie chart and bar graph to display the nucleo-base percentages using the 
+Vibrio-cholerae (the Cholera water-borne disease) etc. The script will then count the number of Adenine (A), Thymine (T), Guanine (G), Cytosine (C), and the respective pairs (A-T, G-C), and calculate the total percentages of each of the nucleo-bases in the respective genomes. The script will print the percentages in the python console as well as create a pie chart and bar graph to display the nucleo-base percentages using the matplotlib package. 
+
+You can easily modify this script if you are working with RNA information as well. All you'd have to do is write a line that converts the Thymine (T) to Uracil (U) and do the calculations from there. Furthermore, if you would like to look at other genomes, just download them from the NCBI databases and put them in a folder. In my case the folder that contains all of the text files is called "Genomes," but you can name your folder anything you want -- just modify it in the script. 
 
 The genetic information was taken pulled from various NIH and CDC databases, and the specific data that I used will be included in the reference below.
 
